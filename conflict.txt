@@ -1,1 +1,2 @@
-conflict, conflict, conflict
+conflict, solved
+hurray
