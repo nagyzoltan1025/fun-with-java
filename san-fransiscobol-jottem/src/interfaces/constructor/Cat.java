@@ -16,6 +16,7 @@ public class Cat extends Animal implements Pet, Vehicle{
 	}
 	
 	public Cat(int weight, String name) {
+		;
 		//this(weight, name);
 	}
 	
