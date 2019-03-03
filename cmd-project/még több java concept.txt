@@ -1,0 +1,15 @@
+még több java concept:
+wrapper osztály
+kasztolás
+stack
+heap
+környezeti változó
+array vs arraylist
+instanceof
+Immutable class-t hogyan kell csinálni?
+String pool
+Error
+Exception
+
+Az arrayList az olyan mint egy wrapper csak tömböknek?
+Minden immutable class kölül pool-ban él?
