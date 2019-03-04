@@ -1,4 +1,4 @@
-package foo;
+package polymorphism_and_encapsulation;
 
 abstract public class Animal {
 	public void walking() {

@@ -1,4 +1,4 @@
-package foo;
+package polymorphism_and_encapsulation;
 
 public class Bat extends Mammal implements Flyable {
 	

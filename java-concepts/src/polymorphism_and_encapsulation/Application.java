@@ -1,4 +1,4 @@
-package foo;
+package polymorphism_and_encapsulation;
 
 /* todo:
 Hozz létre egy absztrakt osztály.
@@ -27,8 +27,11 @@ public class Application {
 		Monkey myMonkey = new Monkey();
 		
 		// method call + encapsulation:
+		// közvetlenül nem lehet hozzáférni az objektumom adattagjaihoz, csak metódusokon keresztül.
+		//myBat.name;
 		myBat.setName("Aladár");
 		System.out.println("A denevérem új neve: " + myBat.getName());
+		
 		
 		// statikus változó
 		System.out.println("Hány emlősöm példányom van? " + myBat.howManyMammals());

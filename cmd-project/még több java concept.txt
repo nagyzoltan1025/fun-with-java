@@ -13,3 +13,10 @@ Exception
 
 Az arrayList az olyan mint egy wrapper csak tömböknek?
 Minden immutable class kölül pool-ban él?
+
+
+todo:
+file kezelés
+streamek
+java.util properties
+Változó default érték max érték

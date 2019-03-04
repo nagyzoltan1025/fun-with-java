@@ -1,7 +1,5 @@
 package belso.osztaly.anonim.osztaly;
 
-
-
 // https://www.youtube.com/watch?v=LOUBsUKRHSk&list=PLyriihBWoulz2Eb3-FvL5bPXSQ-8poCNm&index=30
 /*
  * Belső osztály példa
