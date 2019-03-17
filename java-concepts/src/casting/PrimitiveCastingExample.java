@@ -1,25 +1,19 @@
 package casting;
 
-public class CastingTest {
+public class PrimitiveCastingExample {
 
 	public static void main(String[] args) {
-		testPrimitiveCasting();
-	}
-	
-	public static void testPrimitiveCasting() {
 		int i = (int) 1000;
 		// primitív casting: narrowing
 		byte b = (byte) i;
 		System.out.println("Casting int "+ i + " to byte " + b );
-		// int -> 32 bit; char -> 16 bit = ez narrowing számít elvileg
+		// int -> 32 bit; char -> 16 bit = ez narrowing számít
 		char c = (char) i;
 		System.out.println("Casting int " + i + " to char " + c);
-		// ilyet nem tudok csinálni:
-		// boolean boo = (boolean) i;
-		// widening, automata módon végigmegy:
+		// boolean boo = (boolean) i; // error
+		// widening, automatikus
 		long l = i;
 		System.out.println("Casting int " + i + " to long " + l);
-		// itt is elméletileg automata módon castol a java:
 		double d = l;
 		System.out.println("Casting long " + l + " to double " + d);
 		float f = l;
@@ -30,7 +24,4 @@ public class CastingTest {
 		System.out.println("Casting double " + doub + " to int " + i);
 	}
 	
-	public static void testObjectTypeCasting() {
-		// todo 
-	}
 }

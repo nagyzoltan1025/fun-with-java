@@ -1,4 +1,4 @@
-package polymorphism_and_encapsulation;
+package basic;
 
 public class Mammal extends Animal {
 
@@ -20,7 +20,7 @@ public class Mammal extends Animal {
 	
 	@Override
 	public void breed() {
-		System.out.println("Banging a female");
+		System.out.println("Breeding");
 	}
 	
 	public void takesCareOfItsOffspring() {

@@ -18,6 +18,7 @@ Minden immutable class kölül pool-ban él? -> nem, sőt a string literálok se
 
 todo:
 file kezelés
+exceptions
 streamek
 java.util properties
 Változó default érték max érték

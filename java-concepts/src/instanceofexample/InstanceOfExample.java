@@ -1,6 +1,6 @@
 package instanceofexample;
 
-public class App {
+public class InstanceOfExample {
 
 	public static void main(String[] args) {
 		Dog myDog = new Dog();

@@ -6,7 +6,9 @@ public class PoolExample {
 		String s0 = new String("x");
 		String s1 = "x";
 		String s2 = "x";
+		// konstruktor hívás miatt az "x" nem került bele a string pool-ba
 		String s3 = new String("x");
+		// stringpool-ba bele lett pakolnva az s3 string értéke.
 		String s4 = s3.intern();
 		
 		System.out.println(s1 == s2); // true

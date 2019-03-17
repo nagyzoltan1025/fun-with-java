@@ -1,4 +1,4 @@
-package polymorphism2;
+package classtypecasting;
 
 public class App {
 

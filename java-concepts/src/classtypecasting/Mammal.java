@@ -1,4 +1,4 @@
-package polymorphism2;
+package classtypecasting;
 
 abstract public class Mammal extends Animal {
 
