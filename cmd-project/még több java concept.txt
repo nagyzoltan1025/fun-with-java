@@ -1,8 +1,6 @@
 még több java concept:
 wrapper osztály
 kasztolás
-stack
-heap
 környezeti változó
 array vs arraylist
 instanceof
@@ -10,9 +8,12 @@ Immutable class-t hogyan kell csinálni?
 String pool
 Error
 Exception
+stack
+heap
+
 
 Az arrayList az olyan mint egy wrapper csak tömböknek?
-Minden immutable class kölül pool-ban él?
+Minden immutable class kölül pool-ban él? -> nem, sőt a string literálok sem kerülnek string pool-ba, ha konstruktorral lettek létrehozva
 
 
 todo:
