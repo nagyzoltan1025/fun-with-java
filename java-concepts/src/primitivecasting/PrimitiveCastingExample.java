@@ -1,4 +1,4 @@
-package casting;
+package primitivecasting;
 
 public class PrimitiveCastingExample {
 
