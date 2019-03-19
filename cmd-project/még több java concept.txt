@@ -10,15 +10,17 @@ Error
 Exception
 stack
 heap
+belső osztály
 
 
 Az arrayList az olyan mint egy wrapper csak tömböknek?
 Minden immutable class kölül pool-ban él? -> nem, sőt a string literálok sem kerülnek string pool-ba, ha konstruktorral lettek létrehozva
 
 
-todo:
-file kezelés
-exceptions
-streamek
-java.util properties
-Változó default érték max érték
+Következőket fogom csinálni:
+•	Ezt rendbe kellene rakni: https://github.com/nagyzoltan1025/fun-with-java/tree/master/java-concepts/src/castingandinstanceof 
+•	Ha ezzel megvagyok haladok tovább a témakörökkel:
+    o	exception-ök: A java alapok video-hoz képest kicsit mélyebben belemennék. pl.:  Saját exception osztály definiálás, try-catch-finally blokkokkal játszadozás, ilyesmik
+    o	file kezelés
+    o	streamek
+    o	java.util properties

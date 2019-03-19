@@ -1,0 +1,5 @@
+package castingandinstanceof;
+
+interface Herbivore {
+	
+}

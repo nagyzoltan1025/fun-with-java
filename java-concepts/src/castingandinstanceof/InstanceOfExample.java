@@ -2,16 +2,15 @@ package castingandinstanceof;
 
 public class InstanceOfExample {
 
-	public static void instanceTest(String[] args) {
+	
+	public static void instanceofTest() {
+		System.out.println("\ninstanceof Examples: ");
 		Dog myDog = new Dog("Morzsa");
 		Bulldog myBulldog = new Bulldog("Bulldog Bill");
 		Animal myAnimalDog = new Dog();
 		Dog myNullDog = null;
 		Dog myNotInitializedDog;
 		int myInt = 1;
-		
-		System.out.print("\n");
-		
 		System.out.println( myDog.getName() + " is a dog? " + (myDog instanceof Dog)); // true
 		System.out.println( myDog.getName() + " is a predator? " + (myDog instanceof Predator)); // true
 		System.out.println( myDog.getName() + " is an Animal? " + (myDog instanceof Animal)); // true
@@ -38,61 +37,4 @@ public class InstanceOfExample {
 
 	
 	
-}
-
-
-abstract class Animal {
-	
-	abstract public void speaks();
-}
-
-interface Predator {
-	
-}
-
-interface Herbivore {
-	
-}
-
-class Dog extends Animal implements Predator {
-	
-	private String name;
-	
-	Dog(){
-		this.name = null;
-		System.out.println("Creating a nameless " + this.getClass().getSimpleName());
-	}
-	
-	Dog(String name){
-		this.name = name;
-		System.out.println("Creating " + name);
-	}
-	
-	String getName() {
-		return this.name;
-	}
-	
-	public void speaks() {
-		System.out.println("Woof");
-	};
-	
-}
-class Bulldog extends Dog {
-
-	// Követelte, hogy legyen egy konstuktor, mivel a szülőnek is volt már egy
-	Bulldog(){
-		super();
-	}
-	
-	Bulldog(String name) {
-		super(name);
-	}
-	
-}
-
-class Cat extends Animal implements Predator {
-	
-	public void speaks() {
-		System.out.println("Meow");
-	}
 }
