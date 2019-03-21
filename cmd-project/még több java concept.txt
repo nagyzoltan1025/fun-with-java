@@ -24,3 +24,24 @@ Következőket fogom csinálni:
     o	file kezelés
     o	streamek
     o	java.util properties
+    
+    
+    Todo:
+•	Mammal: konstruktor paraméterek nélkül sysout-al
+•	Ős osztály
+•	gyerek osztály paraméter nélküli konstuktor
+
+Példa2
+Ős osztály 1 metódussal
+Gyerek osztályban felüldefiniálni
+Példány ős\gyerek osztályból.
+
+Ugyanazt a metódus
+
+
+statikus példány inicializáló blokk
+Milyen sorrendbe lefutás?
+(Többet is)
+
+4.
+Konstuktor vs példány inicializáló blokk milyen sorrendbe futnak le?
