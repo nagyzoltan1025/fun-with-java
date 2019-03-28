@@ -24,3 +24,31 @@ Következőket fogom csinálni:
     o	file kezelés
     o	streamek
     o	java.util properties
+    
+    
+Exception: 
+    sima try catch
+    try, több catch
+        különböző exception-ök
+        ugyanazok az exception-ök
+        gyermek-szülő exception, szülő elöl
+        gyermek-szülő expcetion, gyermek elöl
+    try több catch finally
+    try finally
+    try több finally
+    csak finally
+    al try catch beágyazás:
+        try-ban még egy try-catch ág
+        catch-ban még egy try catch ág
+        finally-ban még egy try-catch ág
+    throw
+        try-catch-en kívül
+        try-ban
+        catch-ban
+        finally-ban
+    Írni saját exception osztályt gyerekkel
+    throws:
+        Írni metódust, ami továbbadja az exception-t. -> meghívni valahol, exception-t lekezelni.
+        két exception-t nem kezel. -> meghívni valahol -> meghívni valahol, exception-t lekezelni.
+    https://docs.oracle.com/javase/tutorial/essential/exceptions/QandE/questions.html
+    https://www.idi.ntnu.no/grupper/su/fordypningsprosjekt-2003/fordypning2003-Nguyen-og-Sveen.pdf
