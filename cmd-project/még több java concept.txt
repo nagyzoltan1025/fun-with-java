@@ -106,6 +106,7 @@ Exception:
         két exception-t nem kezel. -> meghívni valahol -> meghívni valahol, exception-t lekezelni.
     https://docs.oracle.com/javase/tutorial/essential/exceptions/QandE/questions.html
     https://www.idi.ntnu.no/grupper/su/fordypningsprosjekt-2003/fordypning2003-Nguyen-og-Sveen.pdf
+  
     Todo:
 •	Mammal: konstruktor paraméterek nélkül sysout-al
 •	Ős osztály
