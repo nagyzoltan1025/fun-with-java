@@ -74,3 +74,14 @@ Milyen sorrendbe lefutás?
 
 4.
 Konstuktor vs példány inicializáló blokk milyen sorrendbe futnak le?
+
+Inicializációs blokk
+alapok
+    osztályban
+        Statikus blokk létrehozása, valamit írjon ki, valamit állítson be
+        példány blokk létrehozása
+    Gyermek osztályban:
+        Szintén
+    Gyermek osztályt példányosítani kell, meg kell nézni a hívási sorrendet.
+    
+   
