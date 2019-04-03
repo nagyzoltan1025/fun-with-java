@@ -52,62 +52,10 @@ Exception:
         két exception-t nem kezel. -> meghívni valahol -> meghívni valahol, exception-t lekezelni.
     https://docs.oracle.com/javase/tutorial/essential/exceptions/QandE/questions.html
     https://www.idi.ntnu.no/grupper/su/fordypningsprosjekt-2003/fordypning2003-Nguyen-og-Sveen.pdf
-még több java concept:
-wrapper osztály
-kasztolás
-környezeti változó
-array vs arraylist
-instanceof
-Immutable class-t hogyan kell csinálni?
-String pool
-Error
-Exception
-stack
-heap
-belső osztály
 
 
-Az arrayList az olyan mint egy wrapper csak tömböknek?
-Minden immutable class kölül pool-ban él? -> nem, sőt a string literálok sem kerülnek string pool-ba, ha konstruktorral lettek létrehozva
 
-
-Következőket fogom csinálni:
-•	Ezt rendbe kellene rakni: https://github.com/nagyzoltan1025/fun-with-java/tree/master/java-concepts/src/castingandinstanceof 
-•	Ha ezzel megvagyok haladok tovább a témakörökkel:
-    o	exception-ök: A java alapok video-hoz képest kicsit mélyebben belemennék. pl.:  Saját exception osztály definiálás, try-catch-finally blokkokkal játszadozás, ilyesmik
-    o	file kezelés
-    o	streamek
-    o	java.util properties
-    
-    
-Exception: 
-    sima try catch
-    try, több catch
-        különböző exception-ök
-        ugyanazok az exception-ök
-        gyermek-szülő exception, szülő elöl
-        gyermek-szülő expcetion, gyermek elöl
-    try több catch finally
-    try finally
-    try több finally
-    csak finally
-    al try catch beágyazás:
-        try-ban még egy try-catch ág
-        catch-ban még egy try catch ág
-        finally-ban még egy try-catch ág
-    throw
-        try-catch-en kívül
-        try-ban
-        catch-ban
-        finally-ban
-    Írni saját exception osztályt gyerekkel
-    throws:
-        Írni metódust, ami továbbadja az exception-t. -> meghívni valahol, exception-t lekezelni.
-        két exception-t nem kezel. -> meghívni valahol -> meghívni valahol, exception-t lekezelni.
-    https://docs.oracle.com/javase/tutorial/essential/exceptions/QandE/questions.html
-    https://www.idi.ntnu.no/grupper/su/fordypningsprosjekt-2003/fordypning2003-Nguyen-og-Sveen.pdf
-  
-    Todo:
+Todo:
 •	Mammal: konstruktor paraméterek nélkül sysout-al
 •	Ős osztály
 •	gyerek osztály paraméter nélküli konstuktor
