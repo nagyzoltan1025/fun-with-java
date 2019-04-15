@@ -1,4 +1,4 @@
-package initialization.blokk;
+package initialization.block;
 
 /* Java inicializációs sorrend vizsgálata:
  * Létre lett hozva egy InitParentExample osztály InitChildExample osztály, mely kiterjeszti a InitParentExample-t.

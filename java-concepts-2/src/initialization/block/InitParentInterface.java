@@ -1,4 +1,4 @@
-package initialization.blokk;
+package initialization.block;
 
 public interface InitParentInterface {
 	

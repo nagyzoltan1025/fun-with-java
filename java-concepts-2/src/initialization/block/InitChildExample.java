@@ -1,4 +1,4 @@
-package initialization.blokk;
+package initialization.block;
 
 public class InitChildExample extends InitParentExample{
 	
