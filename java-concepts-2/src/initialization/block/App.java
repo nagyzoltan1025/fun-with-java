@@ -12,6 +12,20 @@ package initialization.block;
  * 1 db statikuc inicializáló blokk
  * 1 db példány inicializáló blokk
  * 1 db konstruktor
+ * 
+Static abstract
+Static Parent 1
+Static Parent 2
+Static child 2
+Static child 1
+Instance abstract
+Abstract Constructor
+Instance Parent 1
+Instance Parent 2
+Constructor Parent
+Instance child 1
+Instance child 2
+Constructor child
  */
 
 public class App {

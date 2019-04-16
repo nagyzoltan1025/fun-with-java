@@ -55,7 +55,7 @@ public class FileHandlingExamples {
 	}
 	
 	/**
-	 * File class consruktorok hívása:
+	 * File class konstruktorok hívása:
 	 */
 	public static void fileConstructorTest() {
 		File myPath = new File(System.getProperty("user.dir") + "\\src\\Folder2", "\\Subfolder");

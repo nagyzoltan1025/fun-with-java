@@ -36,13 +36,13 @@ public class ExceptionExample {
 	}
 	
 	
-	/*
+	/**
 	 * Ebben a metódusban egy simpla try catch blokk van.
 	 * A switchLight metódus 2 exceptiont dobhat, mindkettő a CheckedLampException gyermeke
 	 * Példában látható, hogy egy CheckedLampException-el le lehet kezelni mindkét exceptiont.
 	 * 
 	 */
-	public void simpeTryCatch() {
+	public void simpleTryCatch() {
 
 		try {
 			this.myRoom.switchLight();
@@ -55,21 +55,21 @@ public class ExceptionExample {
 	}
 	
 	
-	/*
+	/**
 	 * Simpla try catch, de a catch blokk 2 exception-t is lekezel.
 	 */
 	public void  unionTryCatch() {
 		
 		try {
 			this.myRoom.switchLight();
-		} catch(NoLightbulbInTheLampException | NoPowerException p) { 
+		} catch(NoLightbulbInTheLampException | NoPowerException p) {
 			p.message();
 			p.printStackTrace();
 		}
 	}
 	
 	
-	/*
+	/**
 	 * A switchLight által dobott exception 2 exception-t kezel le különbözőképpen
 	 * Bónuszként lekezeli a 2 exception ősét (CheckedLampException) is, de erre a vezérlés nem fog lefutni,
 	 * mivel a switchLight csak a NoLightbulbInTheLampException és NoPowerException dobhatja.
@@ -81,10 +81,10 @@ public class ExceptionExample {
 		} catch (NoLightbulbInTheLampException e) {
 			System.out.println("x");
 			e.printStackTrace();
-		} catch (NoPowerException e) { 
+		} catch (NoPowerException e) {
 			System.out.println("y");
 			e.printStackTrace();
-		} catch (CheckedLampException e) { 
+		} catch (CheckedLampException e) {
 			// ide soha nem fogok eljutni, mivel: 
 			// - a switchLight csak a fenti két exceptiont dobhatja a metódus fejléce szerint (NoLightbulbInTheLampException, NoPowerException)
 			// - a CheckedLampException ősosztálya a fenti két osztálynak
@@ -95,7 +95,7 @@ public class ExceptionExample {
 	}
 	
 	
-	/*
+	/**
 	 * Try-Catch-Finally ág lefutásánál vizsgálom a vezérlést.
 	 * Happy ág: Nincs exception
 	 * Unhappy ág: Van exception
@@ -116,7 +116,7 @@ public class ExceptionExample {
 		
 	}
 	
-	/*
+	/**
 	 * A példában az látszik, hogy:
 	 * A try catch nélkül is használható
 	 * A finally ág nem utolsónak fut le. 
@@ -136,23 +136,27 @@ public class ExceptionExample {
 	}
 	
 	
-	/*
-	 * A példában az látszik, hogy sem a try, sem a catch sem a finally blokk nem állhat magában
+	/**
+	 * A példában az látszik, hogy sem a try, sem a catch sem a finally blokk nem állhat magában.
 	 */
 	public void tryCatchFinallyAlone() {
 		
 		System.out.println("első");
 		
+		// try blokk magában
 		/*
 		try {
 			System.out.println("Try magában");
 		};*/ 
 		
+		// catch blokk magában
 		/*
 		catch (NullPointerException e) {
 			
 		}*/
 		
+		
+		// finally blokk magában
 		/* 
 		finally {
 			System.out.println("finally");
@@ -161,7 +165,7 @@ public class ExceptionExample {
 	}
 	
 	
-	/*
+	/**
 	 * Egymásba ágyazott try-catch-finally blokkok működésére példa
 	 * Egyrészt látszik, hogy lehetséges
 	 * Lefutás sorrendjében nincs meglepetés
@@ -197,7 +201,14 @@ public class ExceptionExample {
 		}
 	}
 	
-	/*
+	/**
+	 * Egymásba ágyazott try-catch-ek lefutási sorrendjének vizsgálata történik meg ebben a metódusban.
+	 * Metódus paraméterei kapcsolókként működnek:
+	 * 	tryException:  Ha true, a legkülső try ágban eldobunk egy exception-t.
+	 * 	catchException: Ha true, a catch ágban dobunk egy egy exception-t.
+	 * 	finallyException: Ha true a legkülső finally ágban eldobunk egy exception 
+	 * 
+	 * Leírás:
 	 * try-catch-finally blokkokban eldobtam egy nullpointer exceptiont, ha a megfelelő boolean paraméter igaz
 	 * Try-ban eldobva elmentünk a catch-be. ott megint el lett dobva egy nullpointer
 	 * A 2. nullpointer már nem lett catch-elve, az eljutott a main-ing. 

@@ -13,8 +13,8 @@ import java.io.OutputStream;
  * https://www.tutorialspoint.com/java/java_files_io.htm
  * @author NZ-LENOVO
  *	TODO:
- *		Inputstreamből fájlba írás
- *		jegyzetbe pár szóban meg kell emlékezni az input\output streamekről
+ *		Inputstreamből fájlba írás.
+ *		jegyzetbe pár szóban meg kell emlékezni az input\output streamekről.
  */
 public class StreamExample {
 
@@ -57,7 +57,7 @@ public class StreamExample {
 	}
 	
 	/**
-	 * Az inputStreamből kiolvassuk karakterenként az értékeket, majd kiírjuk az outputstreambe
+	 * Az inputStreamből kiolvassuk karakterenként az értékeket, majd kiírjuk az outputstreambe.
 	 */
 	public static void inputStreamReaderExample() {
 		
